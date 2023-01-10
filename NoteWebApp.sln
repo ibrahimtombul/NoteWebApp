@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteWeb", "NoteWeb\NoteWeb.csproj", "{35DDD38C-5E0F-440B-B615-C176895EF334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoteWeb", "NoteWeb\NoteWeb.csproj", "{35DDD38C-5E0F-440B-B615-C176895EF334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteWebApi", "NoteWebApi\NoteWebApi.csproj", "{96DD6688-1D2C-4BDB-A666-684200C8A58E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoteWebApi", "NoteWebApi\NoteWebApi.csproj", "{96DD6688-1D2C-4BDB-A666-684200C8A58E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{C022F498-11FD-4E91-AB3A-75F13867AA8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{475F4316-8215-4767-84AF-4F41F497CEBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteWeb.Core", "NoteWeb.Core\NoteWeb.Core.csproj", "{030EEAF3-E9F4-42AB-9823-B22E2929570B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteWeb.Business", "NoteWeb.Business\NoteWeb.Business.csproj", "{19402665-A89E-46E5-9D29-36E9B7F6D1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteWeb.DataAccess", "NoteWeb.DataAccess\NoteWeb.DataAccess.csproj", "{2F13807D-7362-4968-8A8C-D9F2C2A63502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteWeb.Entities", "NoteWeb.Entities\NoteWeb.Entities.csproj", "{AFC8F937-776D-4EFA-A747-7920C268CBC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,22 @@ Global
 		{96DD6688-1D2C-4BDB-A666-684200C8A58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96DD6688-1D2C-4BDB-A666-684200C8A58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96DD6688-1D2C-4BDB-A666-684200C8A58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030EEAF3-E9F4-42AB-9823-B22E2929570B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030EEAF3-E9F4-42AB-9823-B22E2929570B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030EEAF3-E9F4-42AB-9823-B22E2929570B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030EEAF3-E9F4-42AB-9823-B22E2929570B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19402665-A89E-46E5-9D29-36E9B7F6D1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19402665-A89E-46E5-9D29-36E9B7F6D1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19402665-A89E-46E5-9D29-36E9B7F6D1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19402665-A89E-46E5-9D29-36E9B7F6D1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F13807D-7362-4968-8A8C-D9F2C2A63502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F13807D-7362-4968-8A8C-D9F2C2A63502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F13807D-7362-4968-8A8C-D9F2C2A63502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F13807D-7362-4968-8A8C-D9F2C2A63502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC8F937-776D-4EFA-A747-7920C268CBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC8F937-776D-4EFA-A747-7920C268CBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC8F937-776D-4EFA-A747-7920C268CBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC8F937-776D-4EFA-A747-7920C268CBC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
